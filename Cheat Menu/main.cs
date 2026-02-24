@@ -234,7 +234,7 @@ namespace Modern_Cheat_Menu
         private MelonPreferences_Entry<string> _currentKeyCaptureEntry;
 
         // Static fields to be used across the class
-        private static KeyCode _currentMenuToggleKey = KeyCode.F10;
+        private static KeyCode _currentMenuToggleKey = KeyCode."Control+t";
         private static KeyCode _currentExplosionAtCrosshairKey = KeyCode.LeftAlt;
 
         private KeyCode CurrentMenuToggleKey => _currentMenuToggleKey;
@@ -1188,7 +1188,7 @@ namespace Modern_Cheat_Menu
                 // Create entries with default values
                 _menuToggleKeyEntry = _keybindCategory.CreateEntry(
                     "MenuToggleKey",
-                    KeyCode.F10.ToString(),
+                    KeyCode."Control+t".ToString(),
                     "Menu Toggle Key",
                     "Keybind to open/close the cheat menu"
                 );
